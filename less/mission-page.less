@@ -1,0 +1,25 @@
+header {
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: #ffffff;
+
+    .accent {
+        background-color: @primary-color;
+        text-align: center;
+        padding: 17px 0 22px 0;
+        .font-style(@contrast-text, 800)    
+    } 
+}
+
+body {
+    height: 200vh;
+}
+
+.main {
+    margin-top: 250px;
+    height: 560px;
+    .flexbox(column, nowrap, center);
+}

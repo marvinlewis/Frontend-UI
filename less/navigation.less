@@ -1,0 +1,20 @@
+nav {
+    .flexbox(row, nowrap, space-between);
+    margin-top: 21px;
+    height: 142px;
+    
+    a {
+        text-decoration: none;
+        font-size: 2rem;
+        .font-style(@main-text, 800);
+        flex-basis: 10%;
+        align-self: flex-start;
+    }
+
+    .nav-title {
+        .font-style(@main-text, 700);
+        font-size: 6rem;
+        flex-basis: 90%;
+        margin-left: 3%;
+    }
+}

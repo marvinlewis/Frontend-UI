@@ -1,0 +1,199 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Open Sans", sans-serif;
+}
+h1 {
+  font-size: 6rem;
+}
+h2 {
+  font-size: 4.8rem;
+}
+h3 {
+  font-size: 3rem;
+}
+h4 {
+  font-size: 2rem;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-top: 21px;
+  height: 142px;
+}
+nav a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #1B1A1A;
+  font-weight: 800;
+  flex-basis: 50%;
+  flex-basis: 10%;
+  align-self: flex-start;
+}
+nav .nav-title {
+  color: #1B1A1A;
+  font-weight: 700;
+  flex-basis: 50%;
+  font-size: 6rem;
+  flex-basis: 90%;
+  margin-left: 3%;
+}
+header {
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: #ffffff;
+}
+header .accent {
+  background-color: #FF9233;
+  text-align: center;
+  padding: 17px 0 22px 0;
+  color: #FFFFFF;
+  font-weight: 800;
+  flex-basis: 50%;
+}
+body {
+  height: 200vh;
+}
+.main {
+  margin-top: 250px;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
