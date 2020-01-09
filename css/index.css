@@ -1,4 +1,132 @@
+* {
+  font-size: 62.5%;
+  padding: 10px;
+}
+.max-width {
+  max-width: 45%;
+}
 .navbar {
   display: flex;
+  justify-content: space-evenly;
+}
+h2,
+h1,
+h3 {
+  color: #ff6900;
+}
+.section1 {
+  font-size: 4rem;
+}
+.section2 {
+  font-size: 6rem;
+  display: flex;
   justify-content: center;
+}
+.section2 h1 {
+  font-size: 8rem;
+  display: flex;
+  justify-content: center;
+}
+.section3 {
+  font-size: 6rem;
+}
+.section3 h2 {
+  display: flex;
+  justify-content: center;
+}
+.members {
+  border: #ff6900 3px solid;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.members .diante {
+  max-width: 45%;
+}
+.members .diante div {
+  display: flex;
+  justify-content: center;
+}
+.members .marvin {
+  max-width: 45%;
+}
+.members .marvin div {
+  display: flex;
+  justify-content: center;
+}
+.members .tyler {
+  max-width: 45%;
+}
+.members .tyler div {
+  display: flex;
+  justify-content: center;
+}
+.members .michelle {
+  max-width: 45%;
+}
+.members .michelle div {
+  display: flex;
+  justify-content: center;
+}
+.members .andrea {
+  max-width: 45%;
+}
+.members .andrea div {
+  display: flex;
+  justify-content: center;
+}
+.members .michael {
+  max-width: 45%;
+}
+.members .michael div {
+  display: flex;
+  justify-content: center;
+}
+.members .jordan {
+  max-width: 45%;
+}
+.members .jordan div {
+  display: flex;
+  justify-content: center;
+}
+.members .krishna {
+  max-width: 45%;
+}
+.members .krishna div {
+  display: flex;
+  justify-content: center;
+}
+.members .deandre {
+  max-width: 45%;
+}
+.members .deandre div {
+  display: flex;
+  justify-content: center;
+}
+.members .brandi {
+  max-width: 45%;
+}
+.members .brandi div {
+  display: flex;
+  justify-content: center;
+}
+.members .brian {
+  max-width: 45%;
+}
+.members .brian div {
+  display: flex;
+  justify-content: center;
+}
+.members p {
+  background-color: #ffAA99;
+  font-size: 2rem;
+  flex-direction: row-reverse;
+}
+.members img {
+  box-sizing: border-box;
+  max-width: 40%;
+  width: 40%;
+  border: black 3px solid;
+  max-height: 50vh;
 }
