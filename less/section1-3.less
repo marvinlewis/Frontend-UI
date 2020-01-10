@@ -3,18 +3,25 @@ h2, h1, h3 {
     color: @main-color;
 }
 
+
 .section1 {
     font-size: 4rem;
+     a {
+         text-decoration: none;
+     }
 
 }
+
 
 .section2 {
     font-size: 6rem;
     .display(flex, center);
 
-            h1{ 
+            a{ 
                 font-size: 8rem;
                 .display(flex, center);
+                text-decoration: none;
+                color: @main-color;
             }
 
 
@@ -23,8 +30,46 @@ h2, h1, h3 {
 
 .section3 {
     font-size: 6rem;
+    background-image: url(../img/Pics/working\ out.jpg);
+    background-size: cover;
+    background-position: center;
+    max-width: 80%;
+
+
 
     h2 {
         .display(flex, center);
+        font-size: 5rem;
+        padding-top: 40px; 
+
     }
+
+    p{
+        background-color: ;
+        border-radius: 50px;
+        color: white;
+        padding: 20px;
+    }
+
+    .creatorsinfo {
+        border: 2px solid black;
+        border-radius: 50px;
+        border-bottom: dotted black 3px;
+    }
+
+    margin-bottom: 30px;
+    
+
+}
+
+.emptydiv1{
+    .emptydiv();
+}
+
+.anywhere{
+    display: flex;
+    flex-basis: 80%;
+    font-size: 5rem;
+    color: black ;
+
 }

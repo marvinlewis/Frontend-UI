@@ -1,9 +1,14 @@
 * {
   font-size: 62.5%;
-  padding: 10px;
+  padding: 2px;
 }
 .max-width {
   max-width: 45%;
+}
+.emptydiv {
+  background-color: #ff9233;
+  height: 4vh;
+  margin-bottom: 20px;
 }
 .navbar {
   display: flex;
@@ -12,30 +17,72 @@
 h2,
 h1,
 h3 {
-  color: #ff6900;
+  color: #ff9233;
 }
 .section1 {
   font-size: 4rem;
+}
+.section1 a {
+  text-decoration: none;
 }
 .section2 {
   font-size: 6rem;
   display: flex;
   justify-content: center;
 }
-.section2 h1 {
+.section2 a {
   font-size: 8rem;
   display: flex;
   justify-content: center;
+  text-decoration: none;
+  color: #ff9233;
 }
 .section3 {
   font-size: 6rem;
+  background-image: url(../img/Pics/working\ out.jpg);
+  background-size: cover;
+  background-position: center;
+  max-width: 80%;
+  margin-bottom: 30px;
 }
 .section3 h2 {
   display: flex;
   justify-content: center;
+  font-size: 5rem;
+  padding-top: 40px;
+}
+.section3 p {
+  background-color: ;
+  border-radius: 50px;
+  color: white;
+  padding: 20px;
+}
+.section3 .creatorsinfo {
+  border: 2px solid black;
+  border-radius: 50px;
+  border-bottom: dotted black 3px;
+}
+.emptydiv1 {
+  background-color: #ff9233;
+  height: 4vh;
+  margin-bottom: 20px;
+}
+.anywhere {
+  display: flex;
+  flex-basis: 80%;
+  font-size: 5rem;
+  color: black ;
+}
+.emptydiv2 {
+  background-color: #ff9233;
+  height: 4vh;
+  margin-bottom: 20px;
 }
 .members {
-  border: #ff6900 3px solid;
+  background-image: url(../img/Pics/woman-on-beach.jpg);
+  background-size: cover;
+  background-position: 69%;
+  max-width: 100%;
   padding: 10px;
   display: flex;
   flex-wrap: wrap;
@@ -122,11 +169,18 @@ h3 {
   background-color: #ffAA99;
   font-size: 2rem;
   flex-direction: row-reverse;
+  border-radius: 50px;
+  color: white;
+  padding: 20px;
 }
 .members img {
   box-sizing: border-box;
   max-width: 40%;
   width: 40%;
   border: black 3px solid;
-  max-height: 50vh;
+  max-height: auto;
+  border-radius: 50px;
+}
+body {
+  background-color: #f8aa9bf5;
 }
