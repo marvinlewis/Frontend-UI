@@ -163,6 +163,10 @@ a {
 .members .marvin {
   max-width: 45%;
 }
+.members .marvin .marvinpic {
+  position: relative;
+  right: 50px;
+}
 @media (max-width:500px) {
   .members .marvin {
     max-width: 100%;
@@ -211,6 +215,10 @@ a {
 .members .michael {
   max-width: 45%;
 }
+.members .michael .michaelpic {
+  position: relative;
+  right: 50px;
+}
 .members .michael div {
   display: flex;
   justify-content: center;
@@ -235,6 +243,10 @@ a {
 .members .krishna {
   max-width: 45%;
 }
+.members .krishna .krishnapic {
+  position: relative;
+  right: 50px;
+}
 .members .krishna div {
   display: flex;
   justify-content: center;
@@ -247,6 +259,10 @@ a {
 .members .deandre {
   max-width: 45%;
 }
+.members .deandre .deandrepic {
+  position: relative;
+  right: 50px;
+}
 @media (max-width:500px) {
   .members .deandre {
     max-width: 100%;
@@ -258,6 +274,12 @@ a {
 }
 .members .brandi {
   max-width: 45%;
+  position: relative;
+  right: 80px;
+}
+.members .brandi .brandipic {
+  position: relative;
+  right: 80px;
 }
 .members .brandi div {
   display: flex;
@@ -305,6 +327,8 @@ a {
   border: black 3px solid;
   max-height: auto;
   border-radius: 50px;
+  position: relative;
+  left: 200px;
 }
 @media (max-width:500px) {
   .members img {
