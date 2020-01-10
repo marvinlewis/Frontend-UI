@@ -1,0 +1,338 @@
+* {
+  font-size: 62.5%;
+  padding: 2px;
+}
+.max-width {
+  max-width: 45%;
+}
+.emptydiv {
+  background-color: #ff9233;
+  height: 4vh;
+  margin-bottom: 20px;
+}
+body {
+  background-color: #fdddd6f5;
+}
+@media (max-width:500px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+}
+h2,
+h1,
+h3 {
+  color: #ff9233;
+}
+.section1 {
+  font-size: 4rem;
+}
+a {
+  text-decoration: none;
+}
+@media (max-width:500px) {
+  .navbar {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+.section2 {
+  font-size: 6rem;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width:500px) {
+  .section2 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.section2 a {
+  font-size: 8rem;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #ff9233;
+}
+.section3 {
+  font-size: 6rem;
+  margin-bottom: 30px;
+}
+.section3 .aboutus {
+  background-image: url(../img/Pics/jogging\ in\ park.jpg);
+  background-size: cover;
+  background-position: center;
+  max-width: 80%;
+  position: relative;
+  left: 250px;
+  margin-bottom: 45px;
+  margin-top: 35px;
+  border-radius: 50px;
+}
+.section3 h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 5rem;
+  padding-top: 40px;
+  flex-basis: 70%;
+  margin-left: 20px;
+  background-color: rgba(1, 1, 1, 0.2);
+  padding: 20px;
+}
+.section3 p {
+  border-radius: 50px;
+  color: #ffffff;
+  padding: 20px;
+  font-size: 2.4rem;
+  flex-basis: 70%;
+  margin-left: 20px;
+  background-color: rgba(1, 1, 1, 0.2);
+}
+.section3 .creatorsinfo {
+  border: 2px solid black;
+  border-radius: 50px;
+  border-bottom: dotted black 3px;
+  background-image: url(../img/Pics/working\ out.jpg);
+  background-size: cover;
+  background-position: center;
+  max-width: 80%;
+}
+.emptydiv1 {
+  background-color: #ff9233;
+  height: 4vh;
+  margin-bottom: 20px;
+}
+.anywhere {
+  display: flex;
+  flex-basis: 80%;
+  font-size: 5rem;
+  color: black ;
+  margin-left: 20px;
+  padding: 20px;
+}
+@media (max-width:500px) {
+  .anywhere {
+    position: relative;
+    left: 200px;
+  }
+}
+.emptydiv2 {
+  background-color: #ff9233;
+  height: 4vh;
+  margin-bottom: 20px;
+}
+.members {
+  background-image: url(../img/Pics/woman-on-beach.jpg);
+  background-size: cover;
+  background-position: 69%;
+  max-width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media (max-width:500px) {
+  .members {
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
+    max-width: 100%;
+    background-color: #fdddd6f5;
+    background-image: none;
+  }
+  .members div {
+    max-width: 100%;
+  }
+}
+.members .diante {
+  max-width: 45%;
+}
+@media (max-width:500px) {
+  .members .diante {
+    max-width: 100%;
+  }
+}
+.members .diante div {
+  display: flex;
+  justify-content: center;
+}
+.members .marvin {
+  max-width: 45%;
+}
+.members .marvin .marvinpic {
+  position: relative;
+  right: 50px;
+}
+@media (max-width:500px) {
+  .members .marvin {
+    max-width: 100%;
+  }
+}
+.members .marvin div {
+  display: flex;
+  justify-content: center;
+}
+.members .tyler {
+  max-width: 45%;
+}
+@media (max-width:500px) {
+  .members .tyler {
+    max-width: 100%;
+  }
+}
+.members .tyler div {
+  display: flex;
+  justify-content: center;
+}
+.members .michelle {
+  max-width: 45%;
+}
+.members .michelle div {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width:500px) {
+  .members .michelle {
+    max-width: 100%;
+  }
+}
+.members .andrea {
+  max-width: 45%;
+}
+.members .andrea div {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width:500px) {
+  .members .andrea {
+    max-width: 100%;
+  }
+}
+.members .michael {
+  max-width: 45%;
+}
+.members .michael .michaelpic {
+  position: relative;
+  right: 50px;
+}
+.members .michael div {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width:500px) {
+  .members .michael {
+    max-width: 100%;
+  }
+}
+.members .jordan {
+  max-width: 45%;
+}
+.members .jordan div {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width:500px) {
+  .members .jordan {
+    max-width: 100%;
+  }
+}
+.members .krishna {
+  max-width: 45%;
+}
+.members .krishna .krishnapic {
+  position: relative;
+  right: 50px;
+}
+.members .krishna div {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width:500px) {
+  .members .krishna {
+    max-width: 100%;
+  }
+}
+.members .deandre {
+  max-width: 45%;
+}
+.members .deandre .deandrepic {
+  position: relative;
+  right: 50px;
+}
+@media (max-width:500px) {
+  .members .deandre {
+    max-width: 100%;
+  }
+}
+.members .deandre div {
+  display: flex;
+  justify-content: center;
+}
+.members .brandi {
+  max-width: 45%;
+  position: relative;
+  right: 80px;
+}
+.members .brandi .brandipic {
+  position: relative;
+  right: 80px;
+}
+.members .brandi div {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width:500px) {
+  .members .brandi {
+    max-width: 100%;
+  }
+}
+.members .brian {
+  max-width: 45%;
+}
+.members .brian div {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width:500px) {
+  .members .brian {
+    max-width: 100%;
+  }
+}
+.members p {
+  background-color: #ffAA99;
+  font-size: 2rem;
+  flex-direction: row-reverse;
+  border-radius: 50px;
+  color: white;
+  font-size: 2.4rem;
+  flex-basis: 70%;
+  margin-left: 20px;
+  background-color: rgba(1, 1, 1, 0.2);
+  padding: 20px;
+}
+@media (max-width:500px) {
+  .members p {
+    max-width: 100%;
+    font-size: 3rem;
+  }
+}
+.members img {
+  box-sizing: border-box;
+  max-width: 40%;
+  width: 40%;
+  border: black 3px solid;
+  max-height: auto;
+  border-radius: 50px;
+  position: relative;
+  left: 200px;
+}
+@media (max-width:500px) {
+  .members img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
