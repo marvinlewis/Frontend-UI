@@ -144,12 +144,19 @@ a {
     background-color: #fdddd6f5;
     background-image: none;
   }
-  .members div {
-    max-width: 100%;
-  }
+}
+.members .link {
+  font-size: 3rem;
+  border-radius: 10px;
+  width: 50%;
+  background-color: #bdbdbd;
 }
 .members .diante {
-  max-width: 45%;
+  max-width: 100%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 @media (max-width:500px) {
   .members .diante {
@@ -161,11 +168,11 @@ a {
   justify-content: center;
 }
 .members .marvin {
-  max-width: 45%;
-}
-.members .marvin .marvinpic {
-  position: relative;
-  right: 50px;
+  max-width: 100%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 @media (max-width:500px) {
   .members .marvin {
@@ -177,7 +184,11 @@ a {
   justify-content: center;
 }
 .members .tyler {
-  max-width: 45%;
+  max-width: 100%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 @media (max-width:500px) {
   .members .tyler {
@@ -189,35 +200,48 @@ a {
   justify-content: center;
 }
 .members .michelle {
-  max-width: 45%;
-}
-.members .michelle div {
+  max-width: 100%;
+  width: 45%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  left: 70px;
 }
 @media (max-width:500px) {
   .members .michelle {
     max-width: 100%;
   }
 }
-.members .andrea {
-  max-width: 45%;
-}
-.members .andrea div {
+.members .michelle div {
   display: flex;
   justify-content: center;
+}
+.members .andrea {
+  max-width: 100%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 @media (max-width:500px) {
   .members .andrea {
     max-width: 100%;
   }
 }
-.members .michael {
-  max-width: 45%;
+.members .andrea .andreapic {
+  width: 75%;
 }
-.members .michael .michaelpic {
-  position: relative;
-  right: 50px;
+.members .andrea div {
+  display: flex;
+  justify-content: center;
+}
+.members .michael {
+  max-width: 100%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .members .michael div {
   display: flex;
@@ -230,6 +254,11 @@ a {
 }
 .members .jordan {
   max-width: 45%;
+  max-width: 100%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .members .jordan div {
   display: flex;
@@ -241,11 +270,11 @@ a {
   }
 }
 .members .krishna {
-  max-width: 45%;
-}
-.members .krishna .krishnapic {
-  position: relative;
-  right: 50px;
+  max-width: 100%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .members .krishna div {
   display: flex;
@@ -257,11 +286,11 @@ a {
   }
 }
 .members .deandre {
-  max-width: 45%;
-}
-.members .deandre .deandrepic {
-  position: relative;
-  right: 50px;
+  max-width: 100%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 @media (max-width:500px) {
   .members .deandre {
@@ -273,13 +302,11 @@ a {
   justify-content: center;
 }
 .members .brandi {
-  max-width: 45%;
-  position: relative;
-  right: 80px;
-}
-.members .brandi .brandipic {
-  position: relative;
-  right: 80px;
+  max-width: 100%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .members .brandi div {
   display: flex;
@@ -291,7 +318,11 @@ a {
   }
 }
 .members .brian {
-  max-width: 45%;
+  max-width: 100%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .members .brian div {
   display: flex;
@@ -322,13 +353,11 @@ a {
 }
 .members img {
   box-sizing: border-box;
-  max-width: 40%;
-  width: 40%;
+  max-width: 100%;
+  width: 70%;
   border: black 3px solid;
-  max-height: auto;
+  height: 50vh;
   border-radius: 50px;
-  position: relative;
-  left: 200px;
 }
 @media (max-width:500px) {
   .members img {
