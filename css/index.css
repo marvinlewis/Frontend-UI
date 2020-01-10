@@ -122,6 +122,11 @@ a {
   background-position: center;
   max-width: 80%;
 }
+@media (max-width:500px) {
+  .section3 .creatorsinfo {
+    max-width: 100%;
+  }
+}
 .emptydiv1 {
   background-color: #ff9233;
   height: 4vh;
