@@ -66,6 +66,17 @@ a {
   font-size: 6rem;
   margin-bottom: 30px;
 }
+@media (max-width:500px) {
+  .section3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    align-content: center;
+  }
+}
 .section3 .aboutus {
   background-image: url(../img/Pics/jogging\ in\ park.jpg);
   background-size: cover;
@@ -76,6 +87,12 @@ a {
   margin-bottom: 45px;
   margin-top: 35px;
   border-radius: 50px;
+}
+@media (max-width:500px) {
+  .section3 .aboutus {
+    max-width: 100%;
+    left: 0;
+  }
 }
 .section3 h2 {
   display: flex;
@@ -105,10 +122,20 @@ a {
   background-position: center;
   max-width: 80%;
 }
+@media (max-width:500px) {
+  .section3 .creatorsinfo {
+    max-width: 100%;
+  }
+}
 .emptydiv1 {
   background-color: #ff9233;
   height: 4vh;
   margin-bottom: 20px;
+}
+@media (max-width:500px) {
+  .emptydiv1 {
+    display: none;
+  }
 }
 .anywhere {
   display: flex;
@@ -117,12 +144,6 @@ a {
   color: black ;
   margin-left: 20px;
   padding: 20px;
-}
-@media (max-width:500px) {
-  .anywhere {
-    position: relative;
-    left: 200px;
-  }
 }
 .emptydiv2 {
   background-color: #ff9233;
@@ -146,6 +167,7 @@ a {
     max-width: 100%;
     background-color: #fdddd6f5;
     background-image: none;
+    width: 100%;
   }
 }
 .members .link {
@@ -165,6 +187,7 @@ a {
 @media (max-width:500px) {
   .members .diante {
     max-width: 100%;
+    width: 100%;
   }
 }
 .members .diante div {
@@ -181,6 +204,7 @@ a {
 @media (max-width:500px) {
   .members .marvin {
     max-width: 100%;
+    width: 100%;
   }
 }
 .members .marvin div {
@@ -197,6 +221,7 @@ a {
 @media (max-width:500px) {
   .members .tyler {
     max-width: 100%;
+    width: 100%;
   }
 }
 .members .tyler div {
@@ -218,6 +243,10 @@ a {
 @media (max-width:500px) {
   .members .michelle {
     max-width: 100%;
+    width: 100%;
+    position: relative;
+    right: 200px;
+    left: 0;
   }
 }
 .members .michelle div {
@@ -234,6 +263,7 @@ a {
 @media (max-width:500px) {
   .members .andrea {
     max-width: 100%;
+    width: 100%;
   }
 }
 .members .andrea .andreapic {
@@ -257,6 +287,7 @@ a {
 @media (max-width:500px) {
   .members .michael {
     max-width: 100%;
+    width: 100%;
   }
 }
 .members .jordan {
@@ -274,6 +305,7 @@ a {
 @media (max-width:500px) {
   .members .jordan {
     max-width: 100%;
+    width: 100%;
   }
 }
 .members .krishna {
@@ -290,6 +322,7 @@ a {
 @media (max-width:500px) {
   .members .krishna {
     max-width: 100%;
+    width: 100%;
   }
 }
 .members .krishna .krishnainfo {
@@ -305,6 +338,7 @@ a {
 @media (max-width:500px) {
   .members .deandre {
     max-width: 100%;
+    width: 100%;
   }
 }
 .members .deandre div {
@@ -328,6 +362,7 @@ a {
 @media (max-width:500px) {
   .members .brandi {
     max-width: 100%;
+    width: 100%;
   }
 }
 .members .brian {
@@ -344,6 +379,7 @@ a {
 @media (max-width:500px) {
   .members .brian {
     max-width: 100%;
+    width: 100%;
   }
 }
 .members p {
