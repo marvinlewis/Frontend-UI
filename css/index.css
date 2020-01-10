@@ -239,6 +239,11 @@ a {
   width: 70%;
 }
 @media (max-width:500px) {
+  .members .michelle .michellepic {
+    width: 100%;
+  }
+}
+@media (max-width:500px) {
   .members .michelle {
     max-width: 100%;
     width: 100%;
@@ -266,6 +271,11 @@ a {
 }
 .members .andrea .andreapic {
   width: 75%;
+}
+@media (max-width:500px) {
+  .members .andrea .andreapic {
+    width: 100%;
+  }
 }
 .members .andrea div {
   display: flex;
