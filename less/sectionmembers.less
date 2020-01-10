@@ -20,8 +20,25 @@
         flex-wrap: wrap;
         justify-content: space-between;
 
+        @media @tablet {
+            flex-wrap: wrap-reverse;
+            flex-direction: column;
+            max-width: 100%;
+            background-color: #fdddd6f5;
+            background-image: none;
+
+                div{
+                    max-width: 100%;
+                }
+    
+        }
+
         .diante {
             max-width: 45%;
+
+            @media @tablet {
+                max-width: 100%;
+            }
 
 
                 div {
@@ -32,12 +49,20 @@
         .marvin {
             max-width: 45%;
 
+            @media @tablet {
+                max-width: 100%;
+            }
+
             div {
                 .display(flex, center);
             }
         }
 
         .tyler {
+
+            @media @tablet {
+                max-width: 100%;
+            }
             .max-width();
             div {
                 .display(flex, center);
@@ -51,6 +76,10 @@
             div {
                 .display(flex, center);
             }
+
+            @media @tablet {
+                max-width: 100%;
+            }
         }
 
         .andrea {
@@ -58,6 +87,10 @@
 
             div {
                 .display(flex, center);
+            }
+
+            @media @tablet {
+                max-width: 100%;
             }
         }
 
@@ -67,6 +100,10 @@
             div {
                 .display(flex, center);
             }
+
+            @media @tablet {
+                max-width: 100%;
+            }
         }
 
         .jordan {
@@ -74,6 +111,10 @@
 
             div {
                 .display(flex, center);
+            }
+
+            @media @tablet {
+                max-width: 100%;
             }
         }
 
@@ -83,10 +124,18 @@
             div {
                 .display(flex, center);
             }
+
+            @media @tablet {
+                max-width: 100%;
+            }
         }
 
         .deandre {
             .max-width();
+
+            @media @tablet {
+                max-width: 100%;
+            }
 
             div {
                 .display(flex, center);
@@ -99,6 +148,10 @@
             div {
                 .display(flex, center);
             }
+
+            @media @tablet {
+                max-width: 100%;
+            }
         }
 
         .brian{
@@ -106,6 +159,10 @@
 
             div {
                 .display(flex, center);
+            }
+
+            @media @tablet {
+                max-width: 100%;
             }
         }
     
@@ -117,6 +174,16 @@
         border-radius: 50px;
         color: white;
         padding: 20px;
+        font-size: 2.4rem;
+        flex-basis: 70%;
+        margin-left: 20px;
+        background-color: rgba(.5, .5, .5, .2);
+        padding: 20px;
+
+            @media @tablet {
+                max-width: 100%;
+                font-size: 3rem;
+            }
     }
 
     img {
@@ -126,6 +193,11 @@
         border: black 3px solid;
         max-height: auto;
         border-radius: 50px;
+
+            @media @tablet {
+                width: 100%;
+                max-width: 100%;;
+            }
 
     }
 

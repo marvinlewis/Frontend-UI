@@ -10,6 +10,16 @@
   height: 4vh;
   margin-bottom: 20px;
 }
+body {
+  background-color: #fdddd6f5;
+}
+@media (max-width:500px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+}
 .navbar {
   display: flex;
   justify-content: space-evenly;
@@ -22,13 +32,25 @@ h3 {
 .section1 {
   font-size: 4rem;
 }
-.section1 a {
+a {
   text-decoration: none;
+}
+@media (max-width:500px) {
+  .navbar {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
 .section2 {
   font-size: 6rem;
   display: flex;
   justify-content: center;
+}
+@media (max-width:500px) {
+  .section2 {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .section2 a {
   font-size: 8rem;
@@ -39,28 +61,46 @@ h3 {
 }
 .section3 {
   font-size: 6rem;
-  background-image: url(../img/Pics/working\ out.jpg);
+  margin-bottom: 30px;
+}
+.section3 .aboutus {
+  background-image: url(../img/Pics/jogging\ in\ park.jpg);
   background-size: cover;
   background-position: center;
   max-width: 80%;
-  margin-bottom: 30px;
+  position: relative;
+  left: 250px;
+  margin-bottom: 45px;
+  margin-top: 35px;
+  border-radius: 50px;
 }
 .section3 h2 {
   display: flex;
   justify-content: center;
   font-size: 5rem;
   padding-top: 40px;
+  flex-basis: 70%;
+  margin-left: 20px;
+  background-color: rgba(1, 1, 1, 0.2);
+  padding: 20px;
 }
 .section3 p {
-  background-color: ;
   border-radius: 50px;
-  color: white;
+  color: #ffffff;
   padding: 20px;
+  font-size: 2.4rem;
+  flex-basis: 70%;
+  margin-left: 20px;
+  background-color: rgba(1, 1, 1, 0.2);
 }
 .section3 .creatorsinfo {
   border: 2px solid black;
   border-radius: 50px;
   border-bottom: dotted black 3px;
+  background-image: url(../img/Pics/working\ out.jpg);
+  background-size: cover;
+  background-position: center;
+  max-width: 80%;
 }
 .emptydiv1 {
   background-color: #ff9233;
@@ -72,6 +112,14 @@ h3 {
   flex-basis: 80%;
   font-size: 5rem;
   color: black ;
+  margin-left: 20px;
+  padding: 20px;
+}
+@media (max-width:500px) {
+  .anywhere {
+    position: relative;
+    left: 200px;
+  }
 }
 .emptydiv2 {
   background-color: #ff9233;
@@ -88,8 +136,25 @@ h3 {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+@media (max-width:500px) {
+  .members {
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
+    max-width: 100%;
+    background-color: #fdddd6f5;
+    background-image: none;
+  }
+  .members div {
+    max-width: 100%;
+  }
+}
 .members .diante {
   max-width: 45%;
+}
+@media (max-width:500px) {
+  .members .diante {
+    max-width: 100%;
+  }
 }
 .members .diante div {
   display: flex;
@@ -98,12 +163,22 @@ h3 {
 .members .marvin {
   max-width: 45%;
 }
+@media (max-width:500px) {
+  .members .marvin {
+    max-width: 100%;
+  }
+}
 .members .marvin div {
   display: flex;
   justify-content: center;
 }
 .members .tyler {
   max-width: 45%;
+}
+@media (max-width:500px) {
+  .members .tyler {
+    max-width: 100%;
+  }
 }
 .members .tyler div {
   display: flex;
@@ -116,12 +191,22 @@ h3 {
   display: flex;
   justify-content: center;
 }
+@media (max-width:500px) {
+  .members .michelle {
+    max-width: 100%;
+  }
+}
 .members .andrea {
   max-width: 45%;
 }
 .members .andrea div {
   display: flex;
   justify-content: center;
+}
+@media (max-width:500px) {
+  .members .andrea {
+    max-width: 100%;
+  }
 }
 .members .michael {
   max-width: 45%;
@@ -130,12 +215,22 @@ h3 {
   display: flex;
   justify-content: center;
 }
+@media (max-width:500px) {
+  .members .michael {
+    max-width: 100%;
+  }
+}
 .members .jordan {
   max-width: 45%;
 }
 .members .jordan div {
   display: flex;
   justify-content: center;
+}
+@media (max-width:500px) {
+  .members .jordan {
+    max-width: 100%;
+  }
 }
 .members .krishna {
   max-width: 45%;
@@ -144,8 +239,18 @@ h3 {
   display: flex;
   justify-content: center;
 }
+@media (max-width:500px) {
+  .members .krishna {
+    max-width: 100%;
+  }
+}
 .members .deandre {
   max-width: 45%;
+}
+@media (max-width:500px) {
+  .members .deandre {
+    max-width: 100%;
+  }
 }
 .members .deandre div {
   display: flex;
@@ -158,6 +263,11 @@ h3 {
   display: flex;
   justify-content: center;
 }
+@media (max-width:500px) {
+  .members .brandi {
+    max-width: 100%;
+  }
+}
 .members .brian {
   max-width: 45%;
 }
@@ -165,13 +275,28 @@ h3 {
   display: flex;
   justify-content: center;
 }
+@media (max-width:500px) {
+  .members .brian {
+    max-width: 100%;
+  }
+}
 .members p {
   background-color: #ffAA99;
   font-size: 2rem;
   flex-direction: row-reverse;
   border-radius: 50px;
   color: white;
+  font-size: 2.4rem;
+  flex-basis: 70%;
+  margin-left: 20px;
+  background-color: rgba(1, 1, 1, 0.2);
   padding: 20px;
+}
+@media (max-width:500px) {
+  .members p {
+    max-width: 100%;
+    font-size: 3rem;
+  }
 }
 .members img {
   box-sizing: border-box;
@@ -181,6 +306,9 @@ h3 {
   max-height: auto;
   border-radius: 50px;
 }
-body {
-  background-color: #f8aa9bf5;
+@media (max-width:500px) {
+  .members img {
+    width: 100%;
+    max-width: 100%;
+  }
 }

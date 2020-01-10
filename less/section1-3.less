@@ -4,18 +4,39 @@ h2, h1, h3 {
 }
 
 
+
+
 .section1 {
     font-size: 4rem;
+
+  
+ }
+
+
      a {
          text-decoration: none;
+
      }
 
+     .navbar {
+        @media @tablet {
+            display: flex;
+            flex-direction: column-reverse;
+     }
+
+     
 }
 
 
 .section2 {
     font-size: 6rem;
     .display(flex, center);
+
+    @media @tablet {
+        display: flex;
+        flex-direction: column;
+
+    }
 
             a{ 
                 font-size: 8rem;
@@ -25,36 +46,55 @@ h2, h1, h3 {
             }
 
 
-
 }
 
 .section3 {
     font-size: 6rem;
-    background-image: url(../img/Pics/working\ out.jpg);
-    background-size: cover;
-    background-position: center;
-    max-width: 80%;
 
+    .aboutus{
+        background-image: url(../img/Pics/jogging\ in\ park.jpg);
+        background-size: cover;
+        background-position: center;
+        max-width: 80%;
+        position: relative;
+        left: 250px;
+        margin-bottom: 45px;
+        margin-top: 35px;
+        border-radius: 50px;
+    
+    }
 
 
     h2 {
         .display(flex, center);
         font-size: 5rem;
         padding-top: 40px; 
+        flex-basis: 70%;
+        margin-left: 20px;
+        background-color: rgba(.5, .5, .5, .2);
+        padding: 20px;
 
     }
 
     p{
-        background-color: ;
         border-radius: 50px;
-        color: white;
+        color: rgb(255, 255, 255);
         padding: 20px;
+        font-size: 2.4rem;
+        flex-basis: 70%;
+        margin-left: 20px;
+        background-color: rgba(.5, .5, .5, .2);
     }
 
     .creatorsinfo {
         border: 2px solid black;
         border-radius: 50px;
         border-bottom: dotted black 3px;
+        background-image: url(../img/Pics/working\ out.jpg);
+        background-size: cover;
+        background-position: center;
+        max-width: 80%;
+    
     }
 
     margin-bottom: 30px;
@@ -71,5 +111,11 @@ h2, h1, h3 {
     flex-basis: 80%;
     font-size: 5rem;
     color: black ;
+        margin-left: 20px;
+        padding: 20px;
 
-}
+        @media @tablet {
+            position: relative;
+            left: 200px;
+        }
+    }
