@@ -234,8 +234,6 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
-  left: 70px;
 }
 .members .michelle .michellepic {
   width: 70%;
