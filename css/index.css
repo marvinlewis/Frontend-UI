@@ -10,6 +10,9 @@
   height: 4vh;
   margin-bottom: 20px;
 }
+.mb {
+  margin-bottom: 30px;
+}
 body {
   background-color: #fdddd6f5;
 }
@@ -157,6 +160,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 30px;
 }
 @media (max-width:500px) {
   .members .diante {
@@ -207,6 +211,9 @@ a {
   align-items: center;
   position: relative;
   left: 70px;
+}
+.members .michelle .michellepic {
+  width: 70%;
 }
 @media (max-width:500px) {
   .members .michelle {
@@ -285,6 +292,9 @@ a {
     max-width: 100%;
   }
 }
+.members .krishna .krishnainfo {
+  margin-bottom: 85px;
+}
 .members .deandre {
   max-width: 100%;
   width: 45%;
@@ -307,6 +317,9 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.members .brandi .brandiinfo {
+  margin-bottom: 60px;
 }
 .members .brandi div {
   display: flex;
